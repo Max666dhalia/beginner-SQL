@@ -1,0 +1,12 @@
+/** Book List:
+Percy Jackson (5)
+Harry Potter (3)
+Herbology (5)
+**/
+
+CREATE TABLE Books (id INTEGER PRIMARY KEY, name TEXT, rating INTEGER);
+
+INSERT INTO Books VALUES (1, "Percy Jackson", 5); 
+INSERT INTO Books VALUES (2, "Harry Potter", 3);
+INSERT INTO Books VALUES (3, "Herbology", 5);
+SELECT * FROM Books;
