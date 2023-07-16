@@ -1,0 +1,24 @@
+CREATE TABLE store (aisle INTEGER PRIMARY KEY, name TEXT, price INTEGER);
+
+INSERT INTO store VALUES (1, "bike handles", 20); 
+INSERT INTO store VALUES (2, "Wheels", 20);
+INSERT INTO store VALUES (3, "rims", 30);
+INSERT INTO store VALUES (4, "rubber", 40);
+INSERT INTO Store VALUES (5, "stopper", 10);
+INSERT INTO store VALUES (6, "air", 30);
+INSERT INTO Store VALUES (7, "tassels", 20);
+INSERT INTO Store VALUES (8, "seat", 50);
+INSERT INTO Store VALUES (9, "bars", 40);
+INSERT INTO Store VALUES (10, "cushion", 30);
+INSERT INTO Store VALUES (11, "shorts", 20);
+INSERT INTO Store VALUES (12, "sneakers", 30);
+INSERT INTO Store VALUES (13, "Athletic wear", 40);
+INSERT INTO Store VALUES (14, "Patches", 50);
+INSERT INTO Store VALUES (15, "Glue", 20);
+
+SELECT * FROM store ORDER BY price;
+SELECT * FROM store ORDER BY aisle;
+
+SELECT SUM(price) FROM store;
+
+
